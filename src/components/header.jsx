@@ -9,7 +9,7 @@ export default class Header extends Component {
         return (
             <div className="header row">
 
-                <div className="col-lg-3">
+                <div className="col-lg-3 img">
                 <img src={logo} className="logo"></img>
                 </div>
                 <div className="col-lg-9">

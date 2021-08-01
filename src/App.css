@@ -92,3 +92,60 @@
   border:none;
 
 }
+a:hover{
+  cursor: pointer;
+}
+/*******************************/
+
+/*--------Responsiveness-------*/
+@media only screen and (max-width: 1000px) {
+  .name{
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .img,.logo{
+  float: none;
+  text-align: center;
+  }
+  .artist,.album{
+  text-align: center;
+
+  }
+  .mid,.col-lg-1{
+    visibility: hidden;
+  }
+  #title{
+    width: 70%;
+    text-align: center;
+  }
+  #play{
+    width: 15%;
+  }
+  #dur{
+    width: 10%;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #title{
+    width: 50%;
+    text-align: center;
+  }
+
+  #play{
+    width: 25%;
+  }
+  #dur{
+    width: 20%;
+    text-align: left;
+  }
+
+  .name{
+    font-size: 50px;
+  }
+
+
+}
